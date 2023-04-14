@@ -52,16 +52,3 @@ Then every time you want to run the development server:
 docker-compose up
 ```
 (see the file `docker-compose.yml`) 
-
-## Test result tracking 
-Your test results are saved in a secured KTH database. We use this for three main purposes:
-
-1) to identify students who struggle in the early stages of the course
-2) to identify concepts that many students struggle with.
-3) to conduct learning analytics research. For such purposes, all data is stored anonymoyusly.
-
-To configure, locate the file "telemetry.config.json" in the root directory
-- Track my test results: "full"  (default). In this case we will be albe to contact you if we notice that you get stuck.
-- Track my test results without username: "anonymous". This still helps us see if many students get stuck at the same lab task.
-- Don't track my test results: "none"  
-

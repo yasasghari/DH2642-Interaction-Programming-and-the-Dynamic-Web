@@ -1,0 +1,77 @@
+/* A debug class, used to separate components graphically during development */
+.debug {
+    border-style:solid;
+}
+.todo{
+    text-align: right; 
+    
+}    
+
+@media (min-width: 300px){ 
+.flexParent{ 
+    display:flex;  
+    height: 100%; 
+    }
+   }
+.sidebar{  
+    display:flex;  
+    width: 300px;
+    padding: 10px;
+    border: 1px solid purple; 
+    background-color: pink;  }
+.mainContent{ 
+    width: 100%; 
+ }
+
+.fixedWidth{
+    width: 100%; 
+}
+.searchResult{
+    text-align: center;
+    display: inline-block;
+    width: 200px; 
+    vertical-align: top;
+    padding: 20px; 
+    border-style: hidden;
+}
+
+.cellThree{
+    text-align: left;
+    height: 80%; 
+    width: 80%; 
+    border-style: hidden;
+}
+
+div{
+    padding: 10px; 
+    border-style: hidden;
+}
+div.invis{
+    border-style: hidden;
+}
+.title{
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    font-size:x-large;
+    display: block;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    height: 100px;
+}
+.test{
+    width: 100%;
+    display: block;
+}
+.wrapped-text {
+    white-space: pre-wrap;
+}
+.hidden{
+    display: none;
+}
